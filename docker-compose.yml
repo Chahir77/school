@@ -33,7 +33,7 @@ services:
     tty: true
     
   app-school-frontend:
-    image: chahir77/studentDashboard-image:1.0.0
+    image: chahir77/student-dashboard-image:1.0.0
     restart: on-failure
     ports:
       - "8585:85"
