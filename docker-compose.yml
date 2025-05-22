@@ -36,7 +36,7 @@ services:
     image: chahir77/student-dashboard-image:1.0.0
     restart: on-failure
     ports:
-      - "8585:85"
+      - "4000:4000"
     depends_on:
       - app-school-backend
 
